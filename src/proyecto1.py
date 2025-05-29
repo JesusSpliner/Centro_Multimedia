@@ -276,7 +276,7 @@ def play_slideshow_vlc(photo_paths):
         for p in photo_paths:
             f.write(p + "\n")
 
-    play_media_vlc_external(playlist_file, loop=True, slideshow_duration=10000)
+    play_media_vlc_external(playlist_file, loop=True, slideshow_duration=3)
 
 def play_music_loop_vlc(music_paths):
     """Reproduce música en bucle con VLC."""
